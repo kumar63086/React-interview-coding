@@ -7,6 +7,8 @@ import Todolist from './Components/Todolist';
 import { DarkLightMode } from './Components/DarkLightMode';
 import Counter from './Components/Counter';
 import { Calculaters } from './Components/Calculaters';
+import Login from './Components/Login';
+import { ProductList } from './Components/ProductFilter';
 function App() {
   return (
     <Routes>
@@ -17,6 +19,11 @@ function App() {
       <Route path="/darkmode" element={<DarkLightMode />} />
       <Route path="/counter" element={<Counter />} /> 
       <Route path="/calculater" element={<Calculaters />} /> 
+      <Route path="/login" element={<Login />} /> 
+      <Route path="/productfilter" element={<ProductList />} /> 
+
+
+
 
 
 
