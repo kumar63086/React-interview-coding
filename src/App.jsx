@@ -9,6 +9,7 @@ import Counter from './Components/Counter';
 import { Calculaters } from './Components/Calculaters';
 import Login from './Components/Login';
 import { ProductList } from './Components/ProductFilter';
+import { Listsearch } from './Components/Listsearch';
 function App() {
   return (
     <Routes>
@@ -21,6 +22,8 @@ function App() {
       <Route path="/calculater" element={<Calculaters />} /> 
       <Route path="/login" element={<Login />} /> 
       <Route path="/productfilter" element={<ProductList />} /> 
+      <Route path="/list" element={<Listsearch/>} /> 
+
 
 
 
