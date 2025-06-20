@@ -6,6 +6,7 @@ import { Registaion } from './Components/Registaion';
 import Todolist from './Components/Todolist';
 import { DarkLightMode } from './Components/DarkLightMode';
 import Counter from './Components/Counter';
+import { Calculaters } from './Components/Calculaters';
 function App() {
   return (
     <Routes>
@@ -14,7 +15,10 @@ function App() {
       <Route path="/Resiter" element={<Registaion />} />
       <Route path="/todolist" element={<Todolist />} />
       <Route path="/darkmode" element={<DarkLightMode />} />
-      <Route path="/counter" element={<Counter />} />
+      <Route path="/counter" element={<Counter />} /> 
+      <Route path="/calculater" element={<Calculaters />} /> 
+
+
 
     </Routes>
   );
