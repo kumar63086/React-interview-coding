@@ -3,17 +3,18 @@ import { Routes, Route } from 'react-router-dom';
 import { Timer } from './Components/Timer';
 import { Productlist } from './Components/Productlist';
 import { Registaion } from './Components/Registaion';
+import Todolist from './Components/Todolist';
+import { DarkLightMode } from './Components/DarkLightMode';
 function App() {
   return (
     <Routes>
       <Route path="/timer" element={<Timer />} />
-      <Route path="/productlist" element={<Productlist/>} />
-      <Route path="/Resiter" element={<Registaion/>} />
-
-      
-
+      <Route path="/productlist" element={<Productlist />} />
+      <Route path="/Resiter" element={<Registaion />} />
+      <Route path="/todolist" element={<Todolist />} />
+      <Route path="/darkmode" element={<DarkLightMode />} />
     </Routes>
   );
 }
-
+``
 export default App;
